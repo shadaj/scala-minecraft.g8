@@ -1,0 +1,5 @@
+main: $package$.$classname$
+name: $name$
+version: $version$
+author: $author$
+description: $description$
