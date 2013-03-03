@@ -1,8 +1,9 @@
 package $package$
 
-import org.bukkit.plugin.java.JavaPlugin
+import me.shadaj.ScalaPlugin
+import org.bukkit.event.block.BlockPlaceEvent
 
-class $classname$ extends JavaPlugin {
+class $classname$ extends ScalaPlugin {
   def handleBlockPlacement = (event: BlockPlaceEvent) => {
     val player = event.getPlayer
     val block = event.getBlockPlaced

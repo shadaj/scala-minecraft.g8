@@ -23,15 +23,14 @@ Server set up (one time)
 
 Using the template
 ------------------
-* Create a template project
-  Execute
+* Create a template project. Execute
 
     g8 shadaj/scala-minecraft
 
   and follow the prompts (for the first trial plugin you may just accept the defaults)
-* Build
-  Execute
+* Build the plugin. Execute
 
     sbt package
-* Use
+    
+* Use the plugin.
   Copy the jar file generated in the build to the plugins folder of your server
