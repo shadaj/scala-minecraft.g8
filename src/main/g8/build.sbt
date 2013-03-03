@@ -8,8 +8,6 @@ resolvers += "Bukkit releases" at "http://repo.bukkit.org/content/repositories/r
 
 resolvers += "repos" at "https://github.com/shadaj/repos/raw/master/releases"
 
-libraryDependencies += "org.bukkit" % "bukkit" % "1.4.6-R0.3"
-
-libraryDependencies += "shadaj" %% "bukkit-scala" % "0.1"
+libraryDependencies += "me.shadaj" %% "scala-minecraft-bukkit" % "0.1"
 
 libraryDependencies += "javax.servlet" % "servlet-api" % "2.4" % "provided"
