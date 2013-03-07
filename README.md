@@ -12,6 +12,8 @@ Prerequisites
 
 Server set up (easy way)
 ------------------------
+* Create a empty folder, which will store your server's files (we will call this "your server's folder")
+
 * Download setup-server.sh from my github repository using curl:
 
     curl -L -C - -O https://raw.github.com/shadaj/scala-minecraft.g8/master/setup-server.sh
@@ -20,28 +22,8 @@ Server set up (easy way)
 
 * Execute setup-server.sh
 
-Server set up (hard way)
-------------------------
-For people who want to follow individual commands in setup-server.sh
-
-* Create a empty folder, which will store your server's files (we will call this "your server's folder")
-
-* Copy scala-library.jar from your Scala installation's lib folder into your server's folder
-
-* Copy craftbukkit.jar into your server's folder. You can use
-
-    curl -L -C - -O http://dl.bukkit.org/latest-rb/craftbukkit.jar
-
-* Copy bukkit-scala_2.10-0.1.jar from https://github.com/shadaj/repos/blob/master/releases/shadaj/bukkit-scala_2.10/0.1/bukkit-scala_2.10-0.1.jar?raw=true to your server's folder. You can use 
-
-    curl -L -C - -O https://raw.github.com/shadaj/repos/master/releases/shadaj/bukkit-scala_2.10/0.1/bukkit-scala_2.10-0.1.jar
-
-* Copy runserver.sh from the repository (https://raw.github.com/shadaj/scala-minecraft.g8/master/runserver.sh) to your server's folder. Make sure that the extension of the file is .sh and it is executable. If it is not executable, go to terminal, navigate to the folder containing runserver.sh, and execute "chmod a+x runserver.sh". You can use
-
-    curl -L -C - -O https://raw.github.com/shadaj/scala-minecraft.g8/master/runserver.sh
-
 * Go to terminal, navigate to your server's folder, and execute 
-    runserver.sh
+    run-server.sh
 
 * Wait for the server to generate the world
 
