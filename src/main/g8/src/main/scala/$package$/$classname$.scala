@@ -4,6 +4,10 @@ import me.shadaj.ScalaPlugin
 import org.bukkit.event.block.BlockPlaceEvent
 
 class $classname$ extends ScalaPlugin {
+  override def onCommand(sender: CommandSender, cmd: Command, label: String, args: Array[String]): Boolean = {
+  	true
+  }
+
   def handleBlockPlacement = (event: BlockPlaceEvent) => {
     val player = event.getPlayer
     val block = event.getBlockPlaced

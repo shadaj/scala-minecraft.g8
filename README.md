@@ -4,9 +4,7 @@ This is a Giter8 template for making minecraft mods in Scala.
 
 Prerequisites
 -------------
-* Minecraft (1.4.7) :P
-* Scala (2.10.0) (http://www.scala-lang.org/downloads)
-* craftbukkit.jar (1.4.7-R1.0) (http://dl.bukkit.org)
+* Minecraft (1.5.1) :P
 * giter8 (latest version) (https://github.com/n8han/giter8)
 * sbt (latest version) (http://www.scala-sbt.org/release/docs/Getting-Started/Setup.html#installing-sbt)
 
