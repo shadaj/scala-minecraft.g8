@@ -2,6 +2,8 @@ package $package$
 
 import me.shadaj.ScalaPlugin
 import org.bukkit.event.block.BlockPlaceEvent
+import org.bukkit.command.Command
+import org.bukkit.command.CommandSender
 
 class $classname$ extends ScalaPlugin {
   override def onCommand(sender: CommandSender, cmd: Command, label: String, args: Array[String]): Boolean = {
