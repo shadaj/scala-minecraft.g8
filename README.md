@@ -4,7 +4,7 @@ This is a Giter8 template for making minecraft mods in Scala.
 
 Prerequisites
 -------------
-* Minecraft (1.5.1) :P
+* Minecraft (1.6.2) :D
 * giter8 (latest version) (https://github.com/n8han/giter8)
 * sbt (latest version) (http://www.scala-sbt.org/release/docs/Getting-Started/Setup.html#installing-sbt)
 
